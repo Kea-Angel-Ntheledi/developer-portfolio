@@ -1,23 +1,23 @@
 export const educationData = [
     {
         id: 1,
-        institution: 'Ramjas College, Delhi University',
-        course: 'B.A. Honours History',
-        startYear: '2015',
-        endYear: '2018'
+        institution: 'CodeSpace Academy',
+        course: 'Software Engineering',
+        startYear: '2023',
+        endYear: 'Present'
     },
     {
         id: 2,
-        institution: 'Delhi University',
-        course: 'M.A. History',
-        startYear: '2019',
-        endYear: '2021'
+        institution: 'Orbit TVET  College',
+        course: 'Finance, Economics & Accounting management',
+        startYear: '2022',
+        endYear: '2023'
     },
     {
         id: 3,
-        institution: 'Masai School of Coding',
-        course: 'Fullstack Web-Development',
-        startYear: '2021',
-        endYear: 'Present'
+        institution: 'Grenville High School',
+        course: 'Matriculation (Grade 12)',
+        startYear: '2017',
+        endYear: '2021'
     },
 ]

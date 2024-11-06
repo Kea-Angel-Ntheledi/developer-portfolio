@@ -1,6 +1,6 @@
 export const aboutData = {
     title: "Who I am",
-    description1: "Hello! My name is Sreerag Rajan. I'm an aspiring web developer based in India.",
-    description2: "I am a student at Masai School, currently learning Fullstack Web-Development. A project that I worked on towards the end of my Master’s in History set me on this path of a web developer. The project involved looking at movies on historical themes that could be considered as an educational tool. The website was not the focus of the project, but working on it was such a thrilling experience that a career in this felt like a right fit. Other than this I am a bibliophile, who not just loves reading books but also buying and maintaining a personal library.",
+    description1: "Hello! My name is Kealeboga Angel Ntheledi. I'm an aspiring Junior Software Developer residing in Johannesburg and Rustenburg.",
+    description2: "I am currently a student at CodeSpace Academy, learning full stack development. As part of my studies, I'm working on a capstone project that’s close to my heart: building a full stack e-commerce website from the ground up. This project allows me to apply everything I've learned in both front-end and back-end development, from designing user-friendly interfaces to creating secure, efficient server-side logic. I'm excited to continue honing my skills and bringing this project to life as the year comes to a close. My goal is to create an engaging, scalable platform that combines functionality with a seamless user experience. Outside of coding, I am a bibliophile who loves not only reading books but also curating a personal library.",
     image: 2
 }

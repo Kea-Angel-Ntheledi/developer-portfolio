@@ -1,7 +1,6 @@
 export const contactsData = {
-    email: 'sreerag.rajan5@gmail.com',
-    phone: '+91 9663437669',
-    address: '412 Ground Floor, Indraprastha Colony, Sector 30-33, Faridabad, Haryana, 121003',
-
+    email: 'kealebogaangelntheledi@gmail.com / kealebogantheledi@icloud.com',
+    LinkedIn: 'https://www.linkedin.com/in/kealeboga-ntheledi-3a94822b3/',
+    address: '102 Matlhatsi Marwana 2-Lefaragatlha, Rustenburg / 27 Eider Road, Florida Lake, Johannesburg',
     sheetAPI: ''
 }
