@@ -1,3 +1,6 @@
+import Codespace from '../assets/Achievements/Codespace.png'
+import CISCO from '../assets/Achievements/CISCO.png'
+
 export const achievementData = {
     bio : "She’s not just coding; she’s building her own future, one line at a time.",
     achievements : [
@@ -7,7 +10,7 @@ export const achievementData = {
             details : 'I completed a 10 day full-time CodeSpace program in Programming fundamentals',
             date : 'Dec 02, 2023',
             field : 'Coding',
-            image : ''
+            image : Codespace
         },
         {
             id : 2,
@@ -15,7 +18,7 @@ export const achievementData = {
             details : 'Introduction to CyberSecurity with CISCO Networking Academy ',
             date : 'Oct 16, 2023',
             field : 'CyberSecurity',
-            image : ''
+            image : CISCO
         },
         {
             id : 3,
