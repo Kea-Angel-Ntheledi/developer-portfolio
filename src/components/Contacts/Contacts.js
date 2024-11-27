@@ -280,60 +280,68 @@ function Contacts() {
                         </Snackbar>
                     </div> */}
 
-                    <div className='contacts-details'>
-                        <a
-                            // href={`mailto:${contactsData.email}`}
-                            className='personal-details'
-                        >
-                            <div className={classes.detailsIcon}>
-                                <FiAtSign />
-                            </div>
-                            <p style={{ color: theme.tertiary }}>
-                                {contactsData.email}
-                            </p>
-                        </a>
-                        <div className='personal-details'>
-                            <div className={classes.detailsIcon}>
-                                <HiOutlineLocationMarker />
-                            </div>
-                            <p style={{ color: theme.tertiary }}>
-                                {contactsData.address}
-                            </p>
-                        </div>
+ <div className='contacts-details'>
+    <a
+        // href={`mailto:${contactsData.email}`}
+        className='personal-details'
+        >
+    <div className={classes.detailsIcon}>
+         <FiAtSign />
+    </div>
+        <p style={{ color: theme.tertiary }}>
+            {contactsData.email}
+        </p>
+    </a>
+    <div className='personal-details'>
+        <div className={classes.detailsIcon}>
+            <HiOutlineLocationMarker />
+    </div>
+        <div style={{ color: theme.tertiary }}>
+            {contactsData.address.map((line, index) => (
+                <p 
+                    key={index}
+                    style={{ marginBottom: index === contactsData.address.length - 1 ? '0' : '15px' }}
+                >
+                    {line}
+                </p>
+            ))}
+        </div>
+    </div>
 
-                        <div className='socialmedia-icons'>
-                            {socialsData.github && (
-                                <a
-                                    href={socialsData.github}
-                                    target='_blank'
-                                    rel='noreferrer'
-                                    className={classes.socialIcon}
-                                >
-                                    <FaGithub aria-label='GitHub' />
-                                </a>
-                            )}
-                            {socialsData.linkedIn && (
-                                <a
-                                    href={socialsData.linkedIn}
-                                    target='_blank'
-                                    rel='noreferrer'
-                                    className={classes.socialIcon}
-                                >
-                                    <FaLinkedinIn aria-label='LinkedIn' />
-                                </a>
-                            )}
-                            {socialsData.medium && (
-                                <a
-                                    href={socialsData.medium}
-                                    target='_blank'
-                                    rel='noreferrer'
-                                    className={classes.socialIcon}
-                                >
-                                    <FaMediumM aria-label='Medium' />
-                                </a>
-                            )}
-                        </div>
-                    </div>
+    <div className='socialmedia-icons'>
+        {socialsData.github && (
+            <a
+                href={socialsData.github}
+                target='_blank'
+                rel='noreferrer'
+                className={classes.socialIcon}
+            >
+                <FaGithub aria-label='GitHub' />
+            </a>
+        )}
+        {socialsData.linkedIn && (
+            <a
+                href={socialsData.linkedIn}
+                target='_blank'
+                rel='noreferrer'
+                className={classes.socialIcon}
+            >
+                <FaLinkedinIn aria-label='LinkedIn' />
+            </a>
+        )}
+        {socialsData.medium && (
+                <a
+                href={socialsData.medium}
+                target='_blank'
+                rel='noreferrer'
+                className={classes.socialIcon}
+                >
+                <FaMediumM aria-label='Medium' />
+                </a>
+             )}
+             </div>
+                </div>
+
                 </div>
             </div>
         </div>

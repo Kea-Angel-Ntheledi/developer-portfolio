@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: flex-start;
     padding: 3.7rem;
+    overflow-x: hidden;
 }
 
 .services-header {

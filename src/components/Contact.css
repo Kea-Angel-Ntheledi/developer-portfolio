@@ -1,41 +1,51 @@
+.contact-section {
+  background-color: #212020; /* Set background to black */
+  padding: 50px 0; /* Add padding to create space around the form */
+  overflow-x: hidden;
+}
+
 .contact-form {
-  padding: 20px;
+  padding: 15px;
   margin: 40px auto;
-  max-width: 500px;
-  background: #fff;
-  border: 1px solid #ddd;
+  max-width: 400px; /* reduced max-width */
+  width: 100%; /* ensure it takes up full width of its container */
+  background: #ed2683;
   border-radius: 5px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .contact-form h2 {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 15px; /* reduced bottom margin */
   color: #333;
+  font-size: 1.6rem; /* smaller font size */
 }
 
 .contact-form label {
   display: block;
-  margin-bottom: 8px;
+  margin-bottom: 6px; /* reduced margin */
   font-weight: bold;
+  font-size: 0.9rem; /* smaller font size */
 }
 
 .contact-form input,
 .contact-form textarea {
   width: 100%;
-  padding: 10px;
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
+  padding: 8px; /* reduced padding */
+  margin-bottom: 15px; /* reduced margin */
+  border: 1px solid #ece6e6;
   border-radius: 4px;
+  font-size: 0.9rem; /* smaller font size */
 }
 
 .contact-form button {
-  background-color: #007bff;
-  color: white;
+  background-color: #161716;
+  color: rgb(244, 239, 239);
   border: none;
-  padding: 10px 15px;
+  padding: 8px 12px; /* reduced button size */
   cursor: pointer;
   border-radius: 4px;
+  font-size: 1rem; /* smaller font size */
 }
 
 .contact-form button:hover {
@@ -46,4 +56,47 @@
   text-align: center;
   color: green;
   margin-top: 10px;
+}
+
+/* Media Queries for Smaller Screens */
+
+@media screen and (max-width: 768px) {
+  .contact-form {
+    max-width: 80%; /* reduced max-width for smaller screens */
+    padding: 12px; /* further reduced padding */
+  }
+
+  .contact-form h2 {
+    font-size: 1.4rem; /* smaller font size for mobile */
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    padding: 6px; /* smaller padding */
+  }
+
+  .contact-form button {
+    padding: 6px 10px; /* smaller button padding */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contact-form {
+    max-width: 90%; /* further reduced max-width */
+    padding: 8px; /* minimal padding */
+  }
+
+  .contact-form h2 {
+    font-size: 1.2rem; /* very small font size */
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    padding: 5px; /* smallest padding */
+  }
+
+  .contact-form button {
+    padding: 6px 8px; /* even smaller button */
+    font-size: 0.9rem; /* smaller font size */
+  }
 }

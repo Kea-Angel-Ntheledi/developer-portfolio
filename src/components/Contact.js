@@ -37,6 +37,7 @@ const Contact = () => {
   };
 
   return (
+    <div className="contact-section">
     <div className="contact-form">
       <h2>Contact Me</h2>
       <form onSubmit={handleSubmit}>
@@ -73,6 +74,8 @@ const Contact = () => {
       </form>
       {status && <p className="status">{status}</p>}
     </div>
+</div>
+
   );
 };
 

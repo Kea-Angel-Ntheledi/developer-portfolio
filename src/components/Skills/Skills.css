@@ -5,6 +5,7 @@
     justify-content: flex-start;
     min-height: 60vh;
     padding: 2.5rem 2rem 2rem 2rem;
+    overflow-x: hidden;
 }
 
 .skillsHeader {
