@@ -4,7 +4,7 @@ import { ThemeContext } from '../../contexts/ThemeContext';
 
 import './Experience.css';
 
-import experienceData from '../../data/experienceData'
+import { experienceData } from '../../data/experienceData'
 import ExperienceCard from './ExperienceCard';
 
 function Experience() {
@@ -20,12 +20,14 @@ function Experience() {
                     <h1 style={{color:theme.primary}}>Experience</h1>
                     {experienceData.map(exp =>(
                         <ExperienceCard 
-                            key={exp.id}
-                            id={exp.id}
-                            jobtitle={exp.jobtitle}
-                            company={exp.company}
-                            startYear={exp.startYear}
-                            endYear={exp.endYear}/>
+                        key={exp.id}
+                        id={exp.id}
+                        jobtitle={exp.jobtitle}
+                        company={exp.company}
+                        startYear={exp.startYear}
+                        endYear={exp.endYear}
+                        description={exp.description} // Add this line
+                    />
                     ))}
                  </div>
              </div>

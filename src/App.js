@@ -7,6 +7,8 @@ import { BackToTop } from "./components";
 import Contact from "./components/Contact"; // Import the Contact component
 import ScrollToTop from "./utils/ScrollToTop";
 
+import { Experience } from './components';
+
 import "./App.css";
 
 function App() {
