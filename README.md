@@ -307,7 +307,7 @@ export const headerData = {
 
 // You can also import image and PDF from assets as shown below
 
-import resume from '../assets/pdf/resume.pdf'
+import CV from '../assets/pdf/CV.pdf'
 import profileImg from '../assets/png/profileImg'
 
 export const headerData = {
