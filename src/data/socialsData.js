@@ -1,6 +1,6 @@
 export const socialsData = {
     github: 'https://github.com/Kea-Angel-Ntheledi',
-    facebook: '',
+    facebook: 'Kealeboga Nakedi Ntheledi',
     linkedIn: 'https://www.linkedin.com/in/kealeboga-ntheledi-3a94822b3/',
     instagram: 'https://www.instagram.com/kealebogaa.nakedi/',
     codepen: 'https://codepen.io/Kealeboga-Angel-Ntheledi',
