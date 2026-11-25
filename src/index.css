@@ -18,6 +18,17 @@
   box-sizing: border-box;
 }
 
+/* Page background before/behind the sections - matches the device's light/dark setting */
+body {
+  background-color: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #212121;
+  }
+}
+
 a {
   text-decoration: none;
 }

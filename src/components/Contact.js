@@ -1,8 +1,10 @@
 // src/components/Contact.js
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
+import { ThemeContext } from "../contexts/ThemeContext";
 import "./Contact.css";
 
 const Contact = () => {
+  const { theme } = useContext(ThemeContext);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -37,7 +39,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact-section">
+    <div className="contact-section" style={{ backgroundColor: theme.secondary }}>
     <div className="contact-form">
       <h2>Contact Me</h2>
       <form onSubmit={handleSubmit}>
