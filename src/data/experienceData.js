@@ -1,20 +1,20 @@
 // src/data/experienceData.js
 export const experienceData = [
     {
-        id: 1,
+        id: 3,
         company: 'Oplene Group',
         jobtitle: 'Software Engineer | AI/ML Engineer & Technical Team Lead',
         startYear: 'Nov 202',
         endYear: 'Present',
-        description: 'Contributing to the development of an AI-powered assistive technology platform focused on improving digital accessibility and user independence. eveloping backend services and AI-driven functionality, including intelligent intent recognition, command processing, and AI assistant integrations. Contributing to system architecture, API design, integration, testing, and overall MVP development.'
+        description: 'Contributing to the development of an AI-powered assistive technology platform focused on improving digital accessibility and user independence. Developing backend services and AI-driven functionality, including intelligent intent recognition, command processing, and AI assistant integrations. Contributing to system architecture, API design, integration, testing, and overall MVP development. Collaborating on Android application and backend integration, supporting voice-based interactions and accessible SMS and call functionality.'
     },
     {
-        id: 1,
+        id: 2,
         company: 'Thuto.io',
         jobtitle: 'Full Stack Developer Intern',
         startYear: 'March 2025',
         endYear: 'May 2026',
-        description: 'Developed and maintained EdTech and FinTech applications using Angular, JavaScript, TypeScript, and backend technologies. Worked on frontend and backend functionality, API development, testing, and third-party integrations. Performed application testing, debugging, troubleshooting, and deployment. Collaborated on improving application functionality, system reliability, and user experience.'
+        description: 'Developed and maintained EdTech and FinTech applications using Angular, JavaScript, TypeScript, and backend technologies. Worked on frontend and backend functionality, API development, testing, and third-party integrations. Performed application testing, debugging, troubleshooting, and deployment. Collaborated on improving application functionality, system reliability, and user experience. erformed application testing, debugging, troubleshooting, and deployment. Worked on frontend and backend functionality, API development, testing, and third-party integrations. '
     },
     {
         id: 1,
